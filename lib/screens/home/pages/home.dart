@@ -1,3 +1,4 @@
+import 'package:e_commerce_flutter/screens/home/pages/Widget/Bottom_nav_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:icons_plus/icons_plus.dart';
 
@@ -13,7 +14,7 @@ class Home extends StatelessWidget {
         title: "Mega Shop",
         firstIcon: Iconsax.notification_bing_outline,
       ),
-      body: Text("ECOM"),
+      bottomNavigationBar: fbottomnavbar(),
     );
   }
 }
